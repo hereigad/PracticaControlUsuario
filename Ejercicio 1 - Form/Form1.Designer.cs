@@ -35,10 +35,12 @@
             // 
             this.botonesNumerados1.AutoSize = true;
             this.botonesNumerados1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.botonesNumerados1.Location = new System.Drawing.Point(352, 156);
+            this.botonesNumerados1.Location = new System.Drawing.Point(326, 136);
             this.botonesNumerados1.Name = "botonesNumerados1";
+            this.botonesNumerados1.Numero = 16;
             this.botonesNumerados1.Size = new System.Drawing.Size(138, 138);
             this.botonesNumerados1.TabIndex = 0;
+            this.botonesNumerados1.Tamaño = 200;
             // 
             // Form1
             // 

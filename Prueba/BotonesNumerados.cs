@@ -45,11 +45,31 @@ namespace Prueba
                 }
                 nuevo.Location = new System.Drawing.Point(posX, posY);
                 posX += (int)Math.Ceiling(tam / Math.Ceiling(Math.Sqrt(num)));
+                nuevo.AutoSizeMode = AutoSizeMode.GrowOnly;
+                nuevo.AutoSize = true;
                 Controls.Add(nuevo);
-                this.AutoSize = true;
-                this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             }
             InitializeComponent();
+        }
+
+        public int Numero {
+            get {
+                return num;
+            }
+
+            set {
+                num = value;
+            }
+        }
+
+        public int Tamaño {
+            get {
+                return tam;
+            }
+
+            set {
+                tam = value;
+            }
         }
     }
 }
